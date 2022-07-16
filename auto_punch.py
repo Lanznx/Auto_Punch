@@ -22,6 +22,7 @@ def google_sheet():
             sheet.update_cell(i, 3, "18:00")
             sheet.update_cell(i, 4, "8")
             break
+    print("punched!")
 
 
 google_sheet()
