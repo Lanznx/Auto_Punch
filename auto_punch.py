@@ -19,7 +19,7 @@ def google_sheet():
     for i in range(1, 1000):
         if sheet.cell(i, 2).value == None:
             sheet.update_cell(i, 2, "9:00")
-            sheet.update_cell(i, 3, "18:00")
+            sheet.update_cell(i, 3, "18:30")
             sheet.update_cell(i, 4, "8")
             break
     print("punched!")
